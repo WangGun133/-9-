@@ -2,7 +2,6 @@
 
 
 #include "Game/CXGameStateBase.h"
-
 #include "Kismet/GameplayStatics.h"
 #include "Player/CXPlayerController.h"
 
@@ -22,3 +21,4 @@ void ACXGameStateBase::MulticastRPCBroadcastLoginMessage_Implementation(const FS
 		}
 	}
 }
+

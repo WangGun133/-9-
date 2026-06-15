@@ -17,5 +17,4 @@ class CHATX_API ACXGameStateBase : public AGameStateBase
 public:
 	UFUNCTION(NetMulticast, Reliable)
 	void MulticastRPCBroadcastLoginMessage(const FString& InNameString = FString(TEXT("XXXXXXX")));
-
 };

@@ -70,7 +70,7 @@ void ACXGameModeBase::JudgeGame(ACXPlayerController* InChattingPlayerController,
 			ACXPlayerState* CXPS = CXPlayerController->GetPlayerState<ACXPlayerState>();
 			if (IsValid(CXPS) == true)
 			{
-				if (CXPS->CurrentGuessCount > CXPS->MaxGuessCount)
+				if (CXPS->CurrentGuessCount < CXPS->MaxGuessCount)
 				{
 					bIsDraw = false;
 					break;

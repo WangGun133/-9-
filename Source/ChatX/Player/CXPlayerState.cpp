@@ -6,7 +6,7 @@
 
 ACXPlayerState::ACXPlayerState()
 	: PlayerNameString(TEXT("None"))
-	, CurrentGuessCount(1)
+	, CurrentGuessCount(0)
 	, MaxGuessCount(3)
 {
 	bReplicates = true;
